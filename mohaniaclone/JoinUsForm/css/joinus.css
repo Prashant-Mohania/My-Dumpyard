@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+body{
+    position: relative;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+
+
+
+.joinus {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  width: 350px;
+	height: 500px;
+  padding: 80px 40px;
+	box-sizing: border-box;
+  background:transparent; 
+  border-radius: 0.5em;
+  color: white;
+  transform: translate(e-50);
+    /*border-radius: 5px;*/
+    background-color: rgba(231, 235, 221, 0.1);
+    padding: 20px;
+    /*background-color: #8C8C8C ;*/
+    
+}
+
+input{
+    
+    width:100%;
+    background-color:transparent;
+    border: none;
+    border-bottom: 2px solid #e89b00;
+    font-weight: 300;
+    color: white;
+    border-radius: 2.0em;
+  font-size: 1.0rem;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.05em;
+  font-family: "Roboto Condensed", sans-serif;
+  }
+  input[type=text]:focus
+  {
+    
+    background-color: transparent;
+   
+  }
+  input[type=text]{
+    border: 2px solid #e89b00;
+  }
+
+
+h1{
+  font-weight: 300;
+  font-size: 1.0rem;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.05em;
+  font-family: "Roboto Condensed", sans-serif;
+  
+}
+textarea {
+  width:100%;    
+    box-sizing: border-box;
+    block-size: 6.0em;
+    border: 2px solid #e89b00;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 16px;
+    resize: none;
+    color: white;
+    margin-bottom: 1.0em;
+  letter-spacing: 0.05em;
+  
+  font-family: "Roboto Condensed", sans-serif;
+  }
+  input[type=text] {
+    /*width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;*/
+    border: none;
+    border-bottom: 2px solid #e89b00;
+    text-indent: 0.7em;
+    
+  }
+  
+input[type=submit]{
+    transition-duration: 0.4s;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #e89b00;
+    border-radius: 10px;
+    
+    padding: 5px 10px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #e89b00; /* Green */
+    color: #ffffff;
+    
+    border-radius: 1.0em;
+    padding: 8px 15px;
+    border: 0.5rem;
+}
+  
